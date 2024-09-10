@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: hsl(0, 0%, 8%);
   color: white;
 }
 
@@ -9,7 +9,7 @@ body {
   margin: 125px auto;
   padding: 40px;
   border-radius: 10px;
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 12%);
   text-align: center;
 }
 
@@ -33,6 +33,14 @@ p {
   font-size: 14px;
 }
 
+.button {
+  background-color: hsl(0, 0%, 20%);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -43,4 +51,10 @@ p {
 .card {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 25px;
+  }
 }
