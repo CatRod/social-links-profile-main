@@ -55,6 +55,6 @@ p {
 
 @media screen and (max-width: 375px) {
   .container {
-    padding: 25px;
+    padding: 20px;
   }
 }
