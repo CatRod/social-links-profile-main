@@ -24,13 +24,13 @@ h1 {
 }
 h3 {
   color: hsl(75, 94%, 57%);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 p {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .button {
