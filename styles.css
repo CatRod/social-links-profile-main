@@ -39,6 +39,19 @@ p {
   padding: 10px;
   border-radius: 8px;
   font-size: 14px;
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .attribution {
@@ -53,10 +66,13 @@ p {
   justify-content: center;
 }
 
+footer {
+  margin-top: -55px;
+}
+
 @media screen and (max-width: 375px) {
   .container {
+    max-width: 350px;
     padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
